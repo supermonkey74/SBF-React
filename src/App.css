@@ -1,0 +1,122 @@
+:root {
+
+  --sbPurple:#6f438e;
+  --sbBlue:  #211e61;
+  --sbGrey: #9e9e9e;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.home,
+.services,
+.contact,
+.events,
+.sales,
+.social,
+.training, 
+.photos {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./Assets/property1.jpg');
+  position: relative;
+  flex-direction: column;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #afc6cc ;
+  font-size: 35px;
+}
+
+
+
+.services {
+  background-image: url('./Assets/Sunset_horses.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.outside {
+
+    background-color: #ccd2d2;
+    height: 95vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: solid 2px purple;
+
+}
+
+
+.contact {
+  background-image: url('./Assets/stall-windows-inside.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.events {
+  background-image: url('./Assets/saddlepads.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sales {
+  background-image: url('./Assets/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.training {
+  background-image: url('./Assets/lesson1728_n.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.social {
+  background-image: url('./Assets/arena.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.photos {
+  background-image: url('./Assets/gallery-image-13.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+

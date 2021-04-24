@@ -1,0 +1,47 @@
+.facility {
+
+  /* height: 250px; */
+  width: 35%;
+  margin: 3rem;
+  padding: 2rem;
+  /* border: solid 2px black; */
+  
+  
+   
+ 
+   
+ }
+ 
+ .facility h1 {
+ 
+   margin: 1rem;
+   
+ }
+ .facility p {
+ 
+   justify-content: center;
+   
+ }
+ 
+ .arena-outer-container {
+ 
+ 
+   margin: 3rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 55%; 
+   /* border: solid 2px black; */
+ 
+ }
+ 
+ 
+ .arena-photos {
+ 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+ }
+ 
