@@ -20,15 +20,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/services' component={Services} />
-        <Route path='/facility' component={Facility} />
-        <Route path='/social' component={Social} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/events' component={Events} />
-        <Route path='/sales' component={Sales} />
-        <Route path='/photos' component={Photos} />
-        <Route path='/training' component={Training} />
+        
       </Switch>
     </Router>
 
