@@ -13,10 +13,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
 .home,
 .services,
 .contact,
@@ -61,7 +57,7 @@
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
-    border: solid 2px purple;
+    border: solid 2px rgb(0, 128, 11);
 
 }
 
