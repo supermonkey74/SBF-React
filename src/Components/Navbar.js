@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
 import Logo from '../Assets/Spellbound2.jpg'
+import Topbar from './Topbar'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,6 +38,8 @@ function Navbar() {
          <img src={Logo} alt="this is the Spellbound Farm logo"  />
          
         </Link>
+
+        <Topbar />
       
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fal fa-times' : 'fad fa-bars'} />
@@ -76,7 +79,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Photos
             </Link>
           </li>
           <li>

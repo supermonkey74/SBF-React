@@ -3,6 +3,7 @@
 .card {
 
     width: 18rem;
+    height: 22rem;
     
 
     
@@ -11,6 +12,6 @@
 .card-img-top {
 
     background-image: url(../Assets/arena.jpg);
-    max-width: 300px;
+    max-width: 50rem;
     
 }

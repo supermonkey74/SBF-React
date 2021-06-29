@@ -13,10 +13,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
 .home,
 .services,
 .contact,
@@ -56,12 +52,13 @@
 
 .outside {
 
-    background-color: #ccd2d2;
-    height: 95vh;
+    background-color: #eff5f5;
+    height: 100%;
+    width: 100%;
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
-    border: solid 2px purple;
+    /* border: solid 2px rgb(0, 128, 11); */
 
 }
 
