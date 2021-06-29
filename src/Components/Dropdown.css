@@ -23,6 +23,7 @@
   
   .dropdown-menu li:hover {
     background: var(--primary);
+    
   }
   
   .dropdown-menu.clicked {
