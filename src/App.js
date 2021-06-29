@@ -10,6 +10,7 @@ import Facility from './Components/pages/Facility';
 import Photos from './Components/pages/Photos';
 import ContactUs from './Components/pages/Photos-page';
 import Events from './Components/pages/Events';
+
 import Social from './Components/pages/Social';
 import Sales from './Components/pages/Sales';
 import Training from './Components/pages/Training';
