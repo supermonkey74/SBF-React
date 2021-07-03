@@ -50,3 +50,12 @@
    
  }
  
+ @media screen and (max-width: 960px) {
+
+  .outside {
+
+      flex-direction: column;
+  }
+
+
+ }
