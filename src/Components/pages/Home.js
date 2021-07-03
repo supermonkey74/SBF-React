@@ -4,8 +4,10 @@ export default function Home() {
 
     return(
         <div className="home">
+        <div className="inside-home">
         <h1>Welcome to Spellbound Farm</h1> 
             <p>Hunters / Jumpers and Equitation</p>
+            </div>
             </div>
     )
 }
