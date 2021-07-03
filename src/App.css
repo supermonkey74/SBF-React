@@ -41,16 +41,19 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   color: var(--antWhite) ;
-  font-size: 35px;
+  
   
 }
 
 .inside-home {
   animation: anim 3s .05s ;
+  font-size: 3rem;
 }
 
 .inside-inside-home {
   color: var(--antWhite) ;
+  font-size: 2.5rem;
+  margin: 1.2rem;
 }
 
 @keyframes anim {
@@ -154,6 +157,7 @@
 .inside-inside-home p {
 
 font-size: 1.5rem;
+margin: .05rem;
 
 }
 }
