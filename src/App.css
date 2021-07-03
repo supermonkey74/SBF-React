@@ -14,7 +14,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.home,
+
 .services,
 .contact,
 .events,
@@ -30,9 +30,13 @@
 }
 
 .home {
+  height: 100vh;
   background-image: url('./Assets/property1.jpg');
+  display: flex;
   position: relative;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -137,3 +141,19 @@
   font-size: 100px;
 }
 
+@media screen and (max-width: 960px) {
+  
+
+.inside-home {
+  
+  font-size: 2.5rem;
+  
+  
+}
+
+.inside-inside-home p {
+
+font-size: 1.5rem;
+
+}
+}
