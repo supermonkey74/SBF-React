@@ -1,0 +1,46 @@
+.event-outer-container {
+
+        background-color: rgb(194, 206, 216);
+        height: 100vh;
+
+}
+
+.spellbound-events {
+
+    border: purple solid;
+    width: 100vw;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sbf-events-title {
+        
+        padding: 20px;
+}
+
+.clubs-container {
+
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: black solid;
+    padding: 1rem;
+   
+}
+
+.clubs {
+
+    width: 50%;
+    border: red solid;
+    justify-content: center;
+    
+}
+
+.club-events {
+    width: 48%;
+    border: blue solid;
+}
