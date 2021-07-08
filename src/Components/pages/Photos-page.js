@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "../photos";
+import '../photos.css';
 
 export default function Photos() {
 
@@ -22,6 +23,7 @@ export default function Photos() {
   
     return (
       <div>
+        <div className="container-photos">
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
@@ -37,6 +39,8 @@ export default function Photos() {
             </Modal>
           ) : null}
         </ModalGateway>
+
+         </div>
       </div>
     )
             }
