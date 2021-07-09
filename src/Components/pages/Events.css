@@ -7,7 +7,7 @@
 
 .spellbound-events {
 
-    border: purple solid;
+    
     width: 100vw;
     justify-content: center; 
     align-items: center;
@@ -24,7 +24,6 @@
 .clubs-container {
 
     justify-content: center; 
-    align-items: center;
     display: flex;
     flex-direction: row;
     border: black solid;
@@ -32,15 +31,14 @@
    
 }
 
-.clubs {
 
-    width: 50%;
-    border: red solid;
-    justify-content: center;
-    
-}
 
 .club-events {
     width: 48%;
     border: blue solid;
+}
+
+.sbf-events {
+    
+
 }

@@ -34,7 +34,7 @@ export default function Events() {
                             </ul>
                         </div>    
                     
-                        <div className="club-events">
+                        <div className="sbf-events">
                             <h3 className="sbf-events-title">Spellbound away Events</h3>
                             <ul className="">
                                 <li>Show 1</li>
