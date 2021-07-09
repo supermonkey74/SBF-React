@@ -10,13 +10,19 @@ export default function Events() {
             
             <div className="spellbound-events">
                 <h3 className="sbf-events-title">Spellbound Events</h3>
-
+                    <div className="underline-large"></div>                                                    
                     {/* <img src={Logo} alt="" className="" /> */}
 
-                <ul className="">
-                    <li>Show 1</li>
-                    <li>Show 1</li>
-                    <li>Show 1</li>
+                <ul className="5">
+                    <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
+                    <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
+                    <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
                 </ul>
             </div>    
                     <div className="clubs-container">

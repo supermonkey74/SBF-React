@@ -26,7 +26,7 @@
     justify-content: center; 
     display: flex;
     flex-direction: row;
-    border: black solid;
+    /* border: black solid; */
     padding: 1rem;
    
 }
@@ -35,10 +35,38 @@
 
 .club-events {
     width: 48%;
-    border: blue solid;
+    /* border: blue solid; */
 }
 
 .sbf-events {
     
 
+}
+
+
+.underline-large {
+
+    border: 1px dashed #000; 
+    width: 20%; 
+    margin: auto; 
+
+}
+
+.sbf-show-list {
+
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: row
+        ;
+}
+
+.show-list-item-date {
+
+    list-style-type: none;
+}
+
+.show-list-desc {
+
+    margin-left: 2rem;
+    list-style-type: none;
 }
