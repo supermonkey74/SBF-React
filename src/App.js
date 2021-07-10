@@ -12,7 +12,7 @@ import ContactUs from './Components/pages/Photos-page';
 import Events from './Components/pages/Events';
 
 import Social from './Components/pages/Social';
-import Sales from './Components/pages/Sales';
+import Breeding from './Components/pages/Breeding';
 import Training from './Components/pages/Training';
 // import Topbar from './Components/Topbar';
 // import ArenaCards from './Components/Card'
@@ -29,7 +29,7 @@ function App() {
         <Route path='/social' component={Social} />
         <Route path='/contact-us' component={ContactUs} />
         <Route path='/events' component={Events} />
-        <Route path='/sales' component={Sales} />
+        <Route path='/breeding' component={Breeding} />
         <Route path='/photos' component={Photos} />
         <Route path='/training' component={Training} />
       </Switch>

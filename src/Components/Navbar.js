@@ -60,7 +60,8 @@ function Navbar() {
               className='nav-links '
               onClick={closeMobileMenu}
             >
-              Services <i className='fa fa-angle-down' />
+              Training 
+              {/* <i className='fa fa-angle-down' /> */}
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -80,6 +81,15 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               Photos
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/Breeding'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Breeding
             </Link>
           </li>
           <li>
