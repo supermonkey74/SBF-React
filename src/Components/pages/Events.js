@@ -30,12 +30,12 @@ export default function Events() {
                         <div className="club-events">
                             <h3 className="sbf-events-title">Clubs</h3>
                             <ul className="">
-                                <li>Club 1</li>
-                                <li>Club 2</li>
-                                <li>Club 3</li>
-                                <li>Club 4</li>
-                                <li>Club 5</li>
-                                <li>Club 6</li>
+                                <li> <a href="https://www.nthjc.com/" target="none">North Texas Hunter Jumper Club</a>  </li>
+                                <li> <a href="https://dallashunterjumperscholarship.org/" target="none">Dallas Hunter Jumper Scholarship</a> </li>
+                                <li> <a href="https://www.ushja.org/" target="none">USHJA</a> </li>
+                                <li> <a href="https://www.usef.org/" target="none">USEF</a></li>
+                                <li><a href="https://www.thja.org/" target="none">Texas Hunter Jumper Association</a> </li>
+                                <li><a href="https://apha.com/" target="none">American Paint Horse Association</a></li>
 
                             </ul>
                         </div>    
@@ -43,17 +43,15 @@ export default function Events() {
                         <div className="sbf-events">
                             <h3 className="sbf-events-title">Spellbound away Events</h3>
                             <ul className="">
-                                <li>Show 1</li>
-                                <li>Show 2</li>
-                                <li>Show 3</li>
-                                <li>Show 4</li>
-                                <li>Show 5</li>
-                                <li>Show 6</li>
-                                <li>Show 7</li>
-                                <li>Show 8</li>
-                                <li>Show 9</li>
-                                <li>Show 10</li>
-                                <li>Show 11</li>
+                            <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
+                    <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
+                    <div className="sbf-show-list">
+                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    </div>
                             </ul>
                         </div> 
                     </div>  
