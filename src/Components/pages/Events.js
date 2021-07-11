@@ -29,7 +29,7 @@ export default function Events() {
 
                         <div className="club-sites">
                             <h7 className="sbf-events-title">Proud members of:</h7>
-                            
+                            <div className="underline-large"></div>
                             <ul className="">
                                 <li> <a href="https://www.nthjc.com/" target="none">North Texas Hunter Jumper Club</a>  </li>
                                 <li> <a href="https://dallashunterjumperscholarship.org/" target="none">Dallas Hunter Jumper Scholarship</a> </li>
@@ -42,7 +42,7 @@ export default function Events() {
                         </div>    
                     
                         <div className="sbf-events">
-                            <h4 className="sbf-events-title">Show calendar</h4>
+                            <h4 className="sbf-events-title">Show Calendar</h4>
                             <div className="underline-large"></div>
                             <ul className="">
                             <div className="sbf-show-list">
