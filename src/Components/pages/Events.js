@@ -9,7 +9,7 @@ export default function Events() {
         <div className="event-outer-container">
             
             <div className="spellbound-events">
-                <h3 className="sbf-events-title">Events at Spellbound Farm</h3>
+                <h2 className="sbf-events-title">Events at Spellbound Farm</h2>
                     <div className="underline-large"></div>                                                    
                     {/* <img src={Logo} alt="" className="" /> */}
 
@@ -28,7 +28,7 @@ export default function Events() {
                     <div className="clubs-container">
 
                         <div className="club-sites">
-                            <h3 className="sbf-events-title">Proud members of:</h3>
+                            <h7 className="sbf-events-title">Proud members of:</h7>
                             
                             <ul className="">
                                 <li> <a href="https://www.nthjc.com/" target="none">North Texas Hunter Jumper Club</a>  </li>
@@ -42,7 +42,7 @@ export default function Events() {
                         </div>    
                     
                         <div className="sbf-events">
-                            <h3 className="sbf-events-title">Show calendar</h3>
+                            <h4 className="sbf-events-title">Show calendar</h4>
                             <div className="underline-large"></div>
                             <ul className="">
                             <div className="sbf-show-list">
