@@ -1,4 +1,5 @@
 import React from 'react';
+import './training.css';
 
 export default function Training() {
 
