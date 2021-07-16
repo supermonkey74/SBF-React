@@ -117,14 +117,7 @@
   font-size: 100px;
 }
 
-.training {
-  background-image: url('./Assets/lesson1728_n.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+
 
 .social {
   background-image: url('./Assets/arena.jpg');
