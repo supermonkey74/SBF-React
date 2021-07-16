@@ -6,7 +6,8 @@ export default function Home() {
 
     return(
         <div className="home">
-            <div className="inside-home">
+
+           <div className="inside-home">
                 <p>Welcome to Spellbound Farm</p> 
                     <div className="inside-inside-home">
                       <p>Hunters / Jumpers and Equitation</p>
