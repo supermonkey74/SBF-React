@@ -3,19 +3,19 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import './App.css';
 import './Facility.css';
-import Home from './Components/pages/Home';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './Components/pages/Services';
-import Facility from './Components/pages/Facility';
-import Photos from './Components/pages/Photos';
-import ContactUs from './Components/pages/Photos-page';
-import Events from './Components/pages/Events';
+import Services from './pages/Services';
+import Facility from './pages/Facility';
+import Photos from './pages/Photos';
+import ContactUs from './pages/Photos-page';
+import Events from './pages/Events';
 
-import Social from './Components/pages/Social';
-import Breeding from './Components/pages/Breeding';
-import Training from './Components/pages/Training';
-// import Topbar from './Components/Topbar';
-// import ArenaCards from './Components/Card'
+import Social from './pages/Social';
+import Breeding from './pages/Breeding';
+import Training from './pages/Training';
+// import Topbar from './Topbar';
+// import ArenaCards from './Card'
 
 function App() {
   return (

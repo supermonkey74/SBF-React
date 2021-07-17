@@ -1,1 +1,43 @@
-/* No CSS */
+:root {
+  --sbPurple:#6f438e;
+  --sbBlue: #211e61;
+  --sbGrey: #9e9e9e;
+  --primary: #1888ff;
+}
+
+.dropdown-menu {
+  background: var(--sbGrey);
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-menu li {
+  background: var(--sbBlue);
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: var(--primary);
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: var(--sbGrey);
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

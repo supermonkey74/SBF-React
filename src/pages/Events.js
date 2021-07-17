@@ -1,5 +1,5 @@
 import React from 'react';
-import  './Events.css';
+import  '../Styles/css/Events.css';
 // import Logo from '../Assets/Spellbound2.jpg'
 
 export default function Events() {

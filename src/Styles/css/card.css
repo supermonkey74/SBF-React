@@ -1,1 +1,9 @@
-/* No CSS */
+.card {
+  width: 18rem;
+  height: 22rem;
+}
+
+.card-img-top {
+  background-image: url(../../Assets/arena-jumps.jpg);
+  max-width: 50rem;
+}

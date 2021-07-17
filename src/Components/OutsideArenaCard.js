@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css';
+import '../Styles/css/card.css';
 import Arena from '../Assets/driveway-smaller.jpg'
 
 

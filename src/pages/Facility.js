@@ -1,6 +1,6 @@
 import React from 'react';
-import ArenaCards from '../Card';
-import OutsideArenaCards from '../OutsideArenaCard';
+import ArenaCards from '../Components/Card';
+import OutsideArenaCards from '../Components/OutsideArenaCard';
 
 
 export default function Facility() {

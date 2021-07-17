@@ -1,6 +1,6 @@
 import React from 'react';
-import './training.css';
-import HotelCard from '../HotelCard'
+import '../Styles/css/training.css';
+import HotelCard from '../Components/HotelCard'
 
 export default function Training() {
 

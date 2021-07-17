@@ -1,0 +1,33 @@
+:root {
+    --primary: #1888ff;
+    --sbPurple:#6f438e;
+    --sbBlue:  #211e61;
+    --sbGrey: #9e9e9e;
+  }
+
+.topbar {
+
+    width: 15rem;
+    background-color: var(--sbBlue);
+    color: var(--sbGrey);
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+
+   
+    /* margin: .5rem;   */
+    /* border: solid black 5px; */
+
+}
+
+.fab {
+
+    color: var(--sbGrey );
+    margin: 1rem .5rem;
+}
+
+.fal {
+    /* padding: .2rem; */
+    margin: 1rem .5rem;
+}
+

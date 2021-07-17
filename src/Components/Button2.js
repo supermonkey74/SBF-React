@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import '../Styles/css/Button.css';
 import { Link } from 'react-router-dom';
 
 export function Button2() {
