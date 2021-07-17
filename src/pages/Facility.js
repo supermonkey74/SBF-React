@@ -1,6 +1,6 @@
 import React from 'react';
 import ArenaCards from '../Components/Card';
-import OutsideArenaCards from '../Components/OutsideArenaCard';
+
 
 
 export default function Facility() {
@@ -42,9 +42,7 @@ export default function Facility() {
               
 
                 <ArenaCards />
-                {/* <OutsideArenaCards /> */}
-                {/* <ArenaCards /> */}
-                {/* <OutsideArenaCards /> */}
+                
                 
            
                                      </div>

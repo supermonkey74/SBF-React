@@ -1,9 +1,7 @@
 .facility {
-  /* height: 250px; */
   width: 70%;
-  margin: 3rem;
+  margin: 2rem;
   padding: 2rem;
-  /* border: solid 2px black; */
 }
 
 .facility h1 {
@@ -39,7 +37,6 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  /* border: solid 2px black; */
 }
 
 .arena-photos {
@@ -59,10 +56,9 @@
 }
 
 @media screen and (max-width: 960px) {
-  .outside {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .facility {
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
   }
 }

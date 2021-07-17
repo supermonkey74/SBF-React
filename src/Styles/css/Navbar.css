@@ -96,7 +96,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1072px) {
   .NavbarItems {
     position: relative;
   }
