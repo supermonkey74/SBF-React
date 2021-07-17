@@ -1,8 +1,8 @@
 
 import React from 'react';
 import Navbar from './Components/Navbar';
-import './App.css';
-import './Facility.css';
+import '../src/Styles/css/App.css';
+import '../src/Styles/css/Facility.css';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './pages/Services';

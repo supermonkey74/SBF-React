@@ -1,0 +1,61 @@
+.facility {
+
+    /* height: 250px; */
+    width: 70%;
+    margin: 3rem;
+    padding: 2rem;
+    /* border: solid 2px black; */
+    
+    
+     
+   }
+   
+   .facility h1 {
+   
+     margin: 1rem;
+     
+   }
+   .facility p {
+   
+     justify-content: center;
+     
+   }
+   .amenities-list{
+  
+      padding-left: -12px;
+   }
+   
+   .arena-outer-container {
+   
+   
+     margin: 3rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     max-width: 60%; 
+     height: fit-content;
+     /* border: solid 2px black; */
+   
+   }
+   
+   
+   .arena-photos {
+   
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     /* max-height: 80%; */
+     
+   }
+   
+   @media screen and (max-width: 960px) {
+  
+    .outside {
+  
+        flex-direction: column;
+    }
+  
+  
+   }
