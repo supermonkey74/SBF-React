@@ -1,9 +1,22 @@
 .card {
-  width: 18rem;
-  height: 22rem;
+  max-width: 22rem;
+  max-height: 22rem;
 }
 
 .card-img-top {
-  background-image: url(../../Assets/arena-jumps.jpg);
   max-width: 50rem;
+}
+
+.card-body {
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

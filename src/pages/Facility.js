@@ -42,9 +42,9 @@ export default function Facility() {
               
 
                 <ArenaCards />
-                <OutsideArenaCards />
-                <ArenaCards />
-                <OutsideArenaCards />
+                {/* <OutsideArenaCards /> */}
+                {/* <ArenaCards /> */}
+                {/* <OutsideArenaCards /> */}
                 
            
                                      </div>

@@ -1,27 +1,40 @@
 :root {
   --sbPurple:#6f438e;
-  --sbBlue: #211e61;
+  --sbBlue:  #211e61;
   --sbGrey: #9e9e9e;
   --antWhite: antiquewhite;
 }
 
 .training-container {
   background-color: var(--antWhite);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5rem;
 }
 
 .training-container-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 3rem;
   /* background-position: center;
-  background-size: cover; 
-  background-repeat: no-repeat; */
+    background-size: cover; 
+    background-repeat: no-repeat; */
   color: black;
   /* font-size: 100px; */
 }
