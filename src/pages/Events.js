@@ -15,7 +15,7 @@ export default function Events() {
 
                 <ul className="5">
                     <div className="sbf-show-list">
-                    <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>
+                    <li className="show-list-item-date">02/14/2021</li> <li className="show-list-desc">Description</li>
                     </div>
                     <div className="sbf-show-list">
                     <li className="show-list-item-date">Date</li> <li className="show-list-desc">Description</li>

@@ -13,18 +13,22 @@
 
       background-color: --sbGrey;
       height: 100vh;
+      // border: 2px solid green;
+      padding: 4rem;
+      margin: 2rem;
 
 }
 
 .spellbound-events {
 
 
-  width: 100vw;
+  width: 91vw;
   justify-content: center; 
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  // padding: 1rem;
+  // border: 2px solid green;
 
 }
 
@@ -38,8 +42,8 @@
   justify-content: center; 
   display: flex;
   flex-direction: row;
-  /* border: black solid; */
-  padding: 1rem;
+  //  border: black solid; 
+  padding: 5rem;
  
 }
 
@@ -124,4 +128,23 @@ a:hover {
 
   margin-left: 2rem;
   list-style-type: none;
+}
+
+@media screen and (max-width: 960px) {
+
+
+.clubs-container {
+
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  //  border: black solid; 
+  padding: 5rem;
+ 
+}
+
+
+
+
 }

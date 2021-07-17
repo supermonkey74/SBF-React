@@ -9,10 +9,12 @@
 .event-outer-container {
   background-color: --sbGrey;
   height: 100vh;
+  padding: 4rem;
+  margin: 2rem;
 }
 
 .spellbound-events {
-  width: 100vw;
+  width: 91vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26,7 +28,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1rem;
 }
 
 .sbf-events-title {
@@ -44,8 +45,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  /* border: black solid; */
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .club-sites {
@@ -133,4 +133,23 @@ a:hover {
 .show-list-desc {
   margin-left: 2rem;
   list-style-type: none;
+}
+
+@media screen and (max-width: 960px) {
+  .clubs-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5rem;
+  }
 }
