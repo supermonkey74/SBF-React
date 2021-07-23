@@ -2,30 +2,30 @@ import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import '../Styles/css/Navbar.css';
-import Dropdown from './Dropdown';
+// import Dropdown from './Dropdown';
 import Logo from '../Assets/Spellbound2.jpg'
 import Topbar from './Topbar'
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  // const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false);
+      // setDropdown(false);
     } else {
-      setDropdown(true);
+      // setDropdown(true);
     }
   };
 
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false);
+      // setDropdown(false);
     } else {
-      setDropdown(false);
+      // setDropdown(false);
     }
   };
 
@@ -41,7 +41,8 @@ function Navbar() {
 
         <Topbar />
       
-        <div className='menu-icon' onClick={handleClick}>
+        <div className='menu-icon' 
+                onClick={handleClick}>
           <i className={click ? 'fal fa-times' : 'fad fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -63,7 +64,7 @@ function Navbar() {
               Training 
               {/* <i className='fa fa-angle-down' /> */}
             </Link>
-            {dropdown && <Dropdown />}
+            {/* {dropdown && <Dropdown />} */}
           </li>
           <li className='nav-item'>
             <Link
