@@ -6,9 +6,7 @@ export default function HotelCard() {
       <div className="card">
         <img className="card-img-top" src="../Assets/gallery-image-14.jpg" alt=""></img>
         <div className="card-body">
-          <p className="card-text">
-            text
-          </p>
+          <p className="card-text">Text</p>
         </div>
       </div>
     </div>

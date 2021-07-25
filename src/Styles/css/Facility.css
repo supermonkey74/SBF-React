@@ -1,7 +1,8 @@
 .facility {
-  width: 70%;
+  width: 40%;
   margin: 2rem;
   padding: 2rem;
+  border: solid 2px black;
 }
 
 .facility h1 {
@@ -9,50 +10,29 @@
 }
 
 .facility p {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .amenities-list {
-  padding-left: -12px;
+  padding-left: 12px;
 }
 
 .arena-outer-container {
   margin: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 60%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
   height: fit-content;
+  border: solid 2px black;
 }
 
 .arena-photos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  /* max-height: 80%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 80%;
 }
 
 @media screen and (max-width: 960px) {
