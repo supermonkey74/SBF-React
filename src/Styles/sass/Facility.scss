@@ -1,10 +1,11 @@
 .facility {
 
     
-    width: 70%;
+    width: 40%;
     margin: 2rem;
     padding: 2rem;
-    // border: solid 2px black;
+    // height: 100vh;
+    border: solid 2px black;
     
     
      
@@ -22,7 +23,7 @@
    }
    .amenities-list{
   
-      padding-left: -12px;
+      padding-left: 12px;
    }
    
    .arena-outer-container {
@@ -31,23 +32,24 @@
      margin: 3rem;
      display: flex;
      flex-direction: row;
+     flex-wrap: nowrap;
      justify-content: center;
      align-items: center;
-     max-width: 60%; 
+     max-width: 40%; 
      height: fit-content;
-    // border: solid 2px black; 
+    border: solid 2px black; 
    
    }
    
    
    .arena-photos {
    
-     display: flex;
-     flex-direction: row;
+    //  display: flex;
+    //  flex-direction: row;
      flex-wrap: wrap;
      justify-content: space-between;
-     /* max-height: 80%; */
-     
+     max-height: 80%;  
+
    }
    
    @media screen and (max-width: 960px) {
